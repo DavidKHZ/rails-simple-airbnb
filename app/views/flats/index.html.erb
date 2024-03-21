@@ -1,0 +1,7 @@
+<h1>All our flats (<%= @flats.count %>)</h1>
+
+<div id="flats" class="d-flex flex-wrap">
+  <% @flats.each do |flat| %>
+    <%= render flat %>
+  <% end %>
+</div>

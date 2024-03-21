@@ -13,3 +13,16 @@
  *= require_tree .
  *= require_self
  */
+
+.custo-card-group {
+  display: flex;
+}
+
+ .card {
+  width: 18rem;
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+}
